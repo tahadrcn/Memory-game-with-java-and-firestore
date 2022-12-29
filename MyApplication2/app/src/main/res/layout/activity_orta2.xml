@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9B1"
+    android:gravity="center"
+    tools:context=".OrtaActivity2">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="122dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="78dp"
+        android:text="Puan:"
+        android:textAlignment="viewEnd"
+        android:textColor="#7743DB"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="236dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="11dp"
+        android:textAlignment="center"
+        android:textColor="#7743DB"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imgo1"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="79dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintStart_toEndOf="@+id/imgo11"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo2"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="17dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintStart_toEndOf="@+id/imgo15"
+        app:layout_constraintTop_toBottomOf="@+id/imgo8"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo3"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="79dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintStart_toEndOf="@+id/imgo1"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo4"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgo3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo5"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgo6"
+        app:layout_constraintTop_toBottomOf="@+id/imgo4"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo6"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="25dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintStart_toEndOf="@+id/imgo9"
+        app:layout_constraintTop_toBottomOf="@+id/imgo3"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo7"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgo8"
+        app:layout_constraintTop_toBottomOf="@+id/imgo5"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo8"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintStart_toEndOf="@+id/imgo10"
+        app:layout_constraintTop_toBottomOf="@+id/imgo6"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo9"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintStart_toEndOf="@+id/imgo12"
+        app:layout_constraintTop_toBottomOf="@+id/imgo1"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo10"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="23dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintStart_toEndOf="@+id/imgo13"
+        app:layout_constraintTop_toBottomOf="@+id/imgo9"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo11"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintEnd_toStartOf="@+id/imgo1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo12"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintEnd_toStartOf="@+id/imgo9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgo11"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo13"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintEnd_toStartOf="@+id/imgo10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgo12"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo14"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintEnd_toStartOf="@+id/imgo15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgo13"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo15"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintStart_toEndOf="@+id/imgo14"
+        app:layout_constraintTop_toBottomOf="@+id/imgo10"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgo16"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/harry_potter_hogwarts_coat_of_arms_small_tarra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgo2"
+        app:layout_constraintTop_toBottomOf="@+id/imgo7"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="122dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="78dp"
+        android:text="0"
+        android:textColor="#7743DB"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_sureyi_goster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="200dp"
+        android:text="..."
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sureyi_baslat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="38dp"
+        android:padding="20dp"
+        android:text="başlat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
